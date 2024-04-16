@@ -41,6 +41,7 @@
   "dependencies": {
     "@babel/core": "^7.24.0",
     "@mempool/electrum-client": "1.1.9",
+    "@napi-rs/cli": "^2.18.0",
     "@types/node": "^18.15.3",
     "axios": "~1.6.1",
     "bitcoinjs-lib": "~6.1.3",
@@ -48,8 +49,8 @@
     "express": "~4.19.2",
     "maxmind": "~4.3.11",
     "mysql2": "~3.9.4",
-    "rust-gbt": "file:./rust-gbt",
     "redis": "^4.6.6",
+    "rust-gbt": "file:./rust-gbt",
     "socks-proxy-agent": "~7.0.0",
     "typescript": "~4.9.3",
     "ws": "~8.16.0"
